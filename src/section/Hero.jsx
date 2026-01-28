@@ -39,7 +39,7 @@ export default function Hero(){
                 <h1 className="text-gray-600 font-medium text-3xl">Explore Courses</h1>
 
                 <div className="flex  items-center justify-between mt-2 space-x-4">
-                    {mapHeroCard({to:"/classroom", src:ClassroomImg, alt:"Classroom Courses", title:"Classroom Courses"})}
+                    {mapHeroCard({to:"/courses", src:ClassroomImg, alt:"Classroom Courses", title:"Classroom Courses"})}
                     {mapHeroCard({to:"/live", src:LiveImg, alt:"Live Online Courses", title:"Live Online Courses"})}
                     {mapHeroCard({to:"/test-series", src:TestSeriesImg, alt:"Test Series", title:"Test Series"})}
                     {mapHeroCard({to:"/self-learning", src:selfImg, alt:"Self Learning", title:"Self Learning"})}

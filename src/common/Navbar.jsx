@@ -39,15 +39,15 @@ export default function Navbar() {
 
 function mapNavLink(to, label) {
   return (
-    <>
+    
       <li className="none">
         <NavLink
-          to={to}
+          to={`/${to}`}
           className="text-md font-semibold  text-gray-700 hover:text-blue-500   mx-4"
         >
           <p>{label}</p>
         </NavLink>
       </li>
-    </>
+    
   );
 }
